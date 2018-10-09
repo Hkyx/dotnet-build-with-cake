@@ -1,4 +1,4 @@
-#dot net build example
+# dot net build example
 
 ### We will use cake and nuget to bootstrap the build process.
 
