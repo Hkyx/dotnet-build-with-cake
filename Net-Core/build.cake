@@ -39,7 +39,7 @@ Task("Change-Assembly-Info")
             "/packages/");
 
     var files = GetFiles("./**/AssemblyInfo.cs", exclude_packages);
-    var company = Argument("company", "" + company + " Inc.");
+    var company = Argument("company", company + " Inc.");
     var copyright = Argument("copyright", "Copyright (c) " + company + "FROM_DATE - " + DateTime.Now.Year);
     var description = Argument("description", company + "'s Platform.");
     var appVersion = Argument("appVersion", assemblyVersion);
